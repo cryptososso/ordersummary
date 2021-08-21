@@ -19,7 +19,8 @@ body{
     font-size: 16px;
     font-weight: 400;
     font-family: 'Red Hat Display', sans-serif;
-    background-image: linear-gradient(hsl(199, 100%, 75%) 20%, hsl(199, 100%, 95%) 80%);
+    background-image: url(../Order_summary/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
 }
 
 .card{
