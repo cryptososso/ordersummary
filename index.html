@@ -2,36 +2,51 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Order summary card</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+ <div class="card">
 
-  Order Summary
+   <section class="main_image">
+     <div> <img src="images/illustration-hero.svg" alt="illustration-hero"></div>
+   </section>
 
-  You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!
+   <section class="main_text text-center">
+     <div class="container">
+     <h1>Order Summary</h1>
+     <p>You can listen to millions of songs, audiobooks, <br> and podcasts on any device anywhere you like !</p>
+    </div>
+   </section>
 
-  Annual Plan
-  $59.99/year
+   <section class="price card-2">
+     <div class="container">
+       <div class="split">
 
-  Change
+     <div class="music_icon">
+       <img src="images/icon-music.svg" alt="icon music">
+     </div>
 
-  Proceed to Payment
-  Cancel Order
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
-</html>
+     <div class="plan">
+       <h2>Annual Plan</h2>
+       <p>$59.99/year</p>
+     </div>
+
+     <div class="link_change">
+       <a href="#">Change</a>
+     </div>
+    </div>
+    </section>
+
+   <Section class="payment">
+     <div class="container">
+     <button class="button-1">Proceed to Payment</button>
+     <div class="link_cancel"> <a href="#">Cancel Order</a></div>
+    </div>
+   </Section>
+
+ </div>

@@ -1,0 +1,156 @@
+
+:root{
+    --clr-primary-200 : hsl(225, 100%, 94%);
+    --clr-primary-300 : hsl(245, 75%, 52%);
+
+    --clr-neutral-100 :  hsl(224, 23%, 55%);
+    --clr-neutral-300 :  hsl(225, 100%, 98%);
+    --clr-neutral-500 : hsl(223, 47%, 23% );
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    max-width: 1440px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: linear-gradient(hsl(199, 100%, 75%) 20%, hsl(199, 100%, 95%) 80%);
+}
+
+.card{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    background: #ffff;
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    margin-inline: auto;
+    width: min(90%, 70.5rem);
+}
+
+.main_image{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+img{
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.text-center{
+    text-align: center;
+}
+
+h1{
+    color: black;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 1.2;
+    margin-bottom: 1em;
+}
+
+
+.main_text{
+    margin-bottom: 3em;
+}
+
+
+.main_text p{
+    font-size: 20px;
+    margin-bottom: 10px;
+    line-height: 2;
+    margin: 0 auto;
+} 
+
+.price{
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.card-2{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); ;
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    border-radius: 20px; 
+}
+
+
+.split{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+    
+
+.plan h2{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.plan p{
+    margin-top: 5px;
+    text-align: center;
+}
+
+.link_change{
+    margin-top: 2px;
+    margin-left: 15px;
+}
+
+.link_change a{
+    color: var(--clr-primary-300);
+    cursor: pointer;
+}
+
+.payment{
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+
+.button-1{
+    box-shadow: 0 0 20px hsl(224, 23%, 55%);
+    width: 90%;
+    background-color: var(--clr-primary-300);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+
+.link_cancel{
+    margin-bottom: 30px;
+}
+
+.link_cancel a{
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
