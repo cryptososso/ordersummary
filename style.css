@@ -47,12 +47,12 @@ body{
     margin-bottom: 30px;
 }
 
+
 img{
     display: block;
     width: 100%;
     border-radius: 10px;
 }
-
 
 .text-center{
     text-align: center;
@@ -95,6 +95,7 @@ h1{
     margin-bottom: 50px;
     border-radius: 20px; 
 }
+
 
 
 .split{
@@ -156,3 +157,69 @@ h1{
     margin-bottom: 50px;
     cursor: pointer;
 }
+
+@media(max-width: 650px){
+    body{
+        margin: 0;
+        padding: 0;
+        max-width: 375px;
+        font-size: 10px;
+        font-weight: 400;
+        font-family: 'Red Hat Display', sans-serif;
+        background-image: url(../Order_summary/images/pattern-background-mobile.svg);
+        background-repeat: no-repeat;
+    }
+
+
+    h1{
+        color: black;
+        font-weight: 900;
+        font-size: 25px;
+        line-height: 1.2;
+        margin-bottom: 1em;
+    }
+
+    .main_text p{
+        font-size: 18px;
+        margin-bottom: 10px;
+        line-height: 2;
+        margin: 0 auto;
+    } 
+
+
+    .plan h2{
+        font-size: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
+    .music_icon img{
+        width: 40px;
+        margin-right: 10px;
+    }
+
+    .button-1{
+        box-shadow: 0 0 20px hsl(224, 23%, 55%);
+        width: 90%;
+        background-color: var(--clr-primary-300);
+        color: #fff;
+        font-size: 15px;
+        font-weight: 700;
+        border-radius: 10px;
+        padding: 10px 20px;
+        margin-bottom: 30px;
+        cursor: pointer;
+    }
+
+    .link_cancel a{
+        text-decoration: none;
+        color: #333;
+        font-size: 15px;
+        font-weight: 700;
+        margin-bottom: 50px;
+        cursor: pointer;
+    }
+    
+
+}
+
